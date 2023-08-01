@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;700&display=swap');
+
+body{
+  font-family: 'Roboto Mono', monospace;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1048%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='rgba(20%2c 28%2c 47%2c 1)'%3e%3c/rect%3e%3cpath d='M53 1080L1133 0L1598 0L518 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1049%26quot%3b)'%3e%3c/path%3e%3cpath d='M686.6 1080L1766.6 0L2525.6 0L1445.6 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1049%26quot%3b)'%3e%3c/path%3e%3cpath d='M1858 1080L778 0L424 0L1504 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1050%26quot%3b)'%3e%3c/path%3e%3cpath d='M1166.4 1080L86.40000000000009 0L-602.0999999999999 0L477.9000000000001 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1050%26quot%3b)'%3e%3c/path%3e%3cpath d='M1010.1038332677133 1080L1920 170.1038332677133L1920 1080z' fill='url(%26quot%3b%23SvgjsLinearGradient1049%26quot%3b)'%3e%3c/path%3e%3cpath d='M0 1080L909.8961667322867 1080L 0 170.1038332677133z' fill='url(%26quot%3b%23SvgjsLinearGradient1050%26quot%3b)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1048'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1049'%3e%3cstop stop-color='rgba(31%2c 42%2c 72%2c 0.14)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(31%2c 42%2c 72%2c 0.14)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1050'%3e%3cstop stop-color='rgba(31%2c 42%2c 72%2c 0.14)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(31%2c 42%2c 72%2c 0.14)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 100svh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+input{
+  outline: 0;
+  color: white;
+}
+
+.leftSection img{
+  border-radius: 50%;
+  position: relative;
+  right: 10px;
+  width: 130px;
+  height: 130px;
+}
+
+
+.rightPlace{
+  margin-top: 10px;
+  padding-left: 70px;
+  margin-left: auto;
+}
+
+.searchSection{
+  background-color: #1f2a48;
+  width: 750px;
+}
+
+.searchBtn{
+  background-color: #0079fe;
+  width: 100px;
+  border: 0;
+  color: white;
+}
+
+.heroSection{
+  background-color: #1f2a48;
+  width: 750px;
+}
+
+.date-text{
+  color: #bdc3c7;
+}
+
+.login-name{
+  color: #3498db;
+}
+
+.bio-text{
+  color: #95a5a6;
+}
+
+.userDetail{
+  background-color: #141c2f;
+  height: 100px;
+  width: 500px;
+}
+
+h6{
+  color: #bdc3c7;
+}
+
+.no-text{
+  user-select: none;
+  color: gray;
+}
+
+.location, .twitter, .blog, .company{
+  color: #ecf0f1;
+}
+
+.navBar{
+  width: 750px;
+  color: #ecf0f1;
+}
+
+.avatarImg{
+  border: 3px solid #2c3139;
+}
+
